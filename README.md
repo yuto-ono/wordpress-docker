@@ -20,7 +20,7 @@ wp core install --url="http://localhost:8000" --title="Title" \
 	--admin_user="user" --admin_password="password" \
 	--admin_email="example@example.com" --allow-root
 ```
-こちらは適宜ユーザー名、パスワード、メールアドレスを設定しておきましょう。
+こちらは適宜ユーザー名、パスワード、メールアドレス等を設定しておきましょう。
 
 その後、下記のコマンドを実行してください。
 
