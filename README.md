@@ -16,7 +16,7 @@ DockerでWordpressのローカル環境を簡単に構築できるテンプレ�
 ### 起動
 以下のコマンドを実行してください。
 
-`docker compose up -d`
+`docker-compose up -d`
 
 #### 初回起動時のみ必要な作業
 
@@ -36,7 +36,7 @@ DockerでWordpressのローカル環境を簡単に構築できるテンプレ�
 ### 終了
 以下のコマンドを実行してください。
 
-`docker compose down`
+`docker-compose down`
 
 ### .gitignore の設定
 
