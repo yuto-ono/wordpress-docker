@@ -1,0 +1,17 @@
+Thumbs.db
+.DS_Store
+
+/docs/wp-init.sh
+/docs/.htaccess
+/docs/.htpasswd
+/docs/index.php
+/docs/license.txt
+/docs/readme.html
+/docs/wp-*.php
+/docs/xmlrpc.php
+/docs/wp-admin/*
+/docs/wp-includes/*
+/docs/wp-content/*
+!/docs/wp-content/themes
+/docs/wp-content/themes/*
+!/docs/wp-content/themes/your_theme

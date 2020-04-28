@@ -1,0 +1,26 @@
+version: '3'
+services:
+  wp:
+    image: wordpress
+    depends_on:
+      - db
+    ports:
+      - "8000:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wp
+    volumes:
+      - ./docs:/var/www/html
+  db:
+    image: mariadb
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wp
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: password
+volumes:
+  db_data:
