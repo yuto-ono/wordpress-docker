@@ -1,6 +1,8 @@
 Thumbs.db
 .DS_Store
 
+.env
+
 /docs/wp-init.sh
 /docs/.htaccess
 /docs/.htpasswd
